@@ -7,7 +7,7 @@ module.exports = (grunt) ->
 
             livereload:
                 options:
-                    livereload: true
+                    livereload: false
                 files: [
                     'index.html'
                     'slides/{,*/}*.{md,html}'
@@ -29,7 +29,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -40,7 +40,7 @@ module.exports = (grunt) ->
                     hostname: 'localhost'
                     base: '.'
                     open: true
-                    livereload: true
+                    livereload: false
 
         coffeelint:
 
@@ -77,7 +77,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
 
 
     # Load all grunt tasks.
@@ -125,7 +125,7 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [

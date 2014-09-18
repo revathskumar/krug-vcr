@@ -12,9 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-    
+
         <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
-    
+
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
@@ -29,6 +29,8 @@
                 document.getElementsByTagName( 'head' )[0].appendChild( link );
             }
         </script>
+
+        <link rel="stylesheet" href="/css/custom.css">
 
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
@@ -85,6 +87,11 @@
 
                     { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
                 ]
+            });
+
+            document.addEventListener('LiveReloadDisconnect', function(evt, socket) {
+                console.log(socket);
+                // LiveReload.disconnect();
             });
         </script>
 
