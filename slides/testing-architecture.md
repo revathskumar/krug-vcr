@@ -1,3 +1,1 @@
-##  testingarchitecture
-
-This is a new Markdown slide
+![](/images/slide2.jpg)

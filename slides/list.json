@@ -2,18 +2,18 @@
     {
         "filename": "index.md",
         "attr": {
-            "data-background": "/images/vhs-cassette.png"
+            "data-background": "/images/cassette.jpg"
         }
     },
     "about.md",
     "whatznear-architecture.md",
-    "testing-architecture.md",
     "webmock.md",
     "webmock-setup.md",
     "webmock-stub.md",
     "webmock-stub-from-file.md",
     "webmock-manual-fixture.md",
     "vcr.md",
+    "testing-architecture.md",
     "vcr-setup.md",
     "vcr-test.md",
     "vcr-test-post.md",

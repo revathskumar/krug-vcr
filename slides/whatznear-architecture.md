@@ -1,3 +1,3 @@
 ##  Whatznear architecture
 
-This is a new Markdown slide
+![](/images/slide1.jpg)
