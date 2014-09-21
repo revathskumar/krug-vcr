@@ -17,8 +17,10 @@
     "vcr-setup.md",
     "vcr-test.md",
     "vcr-test-post.md",
+    "vcr-record-modes.md",
     "vcr-request-matching.md",
     "vcr-insert-reject.md",
+
     {
         "attr": {
             "data-background": "/images/questions-paper.jpg"
